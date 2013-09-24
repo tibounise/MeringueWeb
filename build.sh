@@ -7,4 +7,5 @@ cd ..
 rm -rf doc
 rm .gitignore
 rm README.md
-rm clean.sh
+rm build.sh
+echo "DONE !"

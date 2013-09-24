@@ -10,7 +10,5 @@ This is the repository where we put the scripts to build the Meringue website.
 ## Compilation
 
 ```shell
-cd doc
-./mkdoc.php clean
-./mkdoc.php deploy ../documentation
+./build.sh
 ```
