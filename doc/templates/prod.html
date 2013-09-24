@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meringue documentation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/meringue.css">
+</head>
+<body>
+	<!-- desktop/tablet -->
+	<div class="uk-hidden-small">
+		<header>
+			<img src="img/logo.svg" width="320">
+			<hr>
+		</header>
+	</div>
+
+	<!-- mobile -->
+	<nav class="uk-navbar uk-navbar-attached uk-visible-small">
+		<a href="#sidenav" class="uk-navbar-toggle" data-uk-offcanvas></a>
+		<div class="uk-navbar-center uk-navbar-content">
+			<img class="uk-margin uk-margin-remove" src="img/logo.svg" width="90" height="30">
+		</div>
+	</nav>
+
+	<div id="sidenav" class="uk-offcanvas">
+		<div class="uk-offcanvas-bar">
+			<ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
+				{{& menu}}
+			</ul>
+		</div>
+	</div>
+
+	<div class="uk-container uk-container-center">
+		<div class="uk-grid">
+			<div class="uk-width-large-2-10 uk-width-medium-1-6 uk-hidden-small">
+				<div class="uk-panel">
+					<ul class="uk-nav uk-nav-side">
+						{{& menu}}
+					</ul>
+				</div>
+			</div>
+
+			<div class="uk-width-large-8-10 uk-width-medium-5-6 uk-width-small-1-1">
+				{{& content}}
+			</div>
+		</div>
+	</div>
+
+	<script src="meringue.js"></script>
+</body>
+</html>

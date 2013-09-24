@@ -1,0 +1,49 @@
+[{
+	"type":"ghost",
+	"title":"Introduction",
+	"name":"index"
+},{
+	"type":"section",
+	"title":"Getting started",
+	"items":[{
+		"type":"item",
+		"name":"install",
+		"title":"Installation"
+	},{
+		"type":"item",
+		"name":"configuration",
+		"title":"Configuration"
+	}]
+},{
+	"type":"section",
+	"title":"Features",
+	"items":[{
+		"type":"item",
+		"name":"storage",
+		"title":"Storage"
+	},{
+		"type":"item",
+		"name":"localization",
+		"title":"Localization"
+	},{
+		"type":"item",
+		"name":"router",
+		"title":"Router"
+	},{
+		"type":"item",
+		"name":"templates",
+		"title":"Templates"
+	},{
+		"type":"item",
+		"name":"crypto",
+		"title":"Cryptography"
+	}]
+},{
+	"type":"section",
+	"title":"Contribute",
+	"items":[{
+		"type":"item",
+		"name":"createmodules",
+		"title":"Create modules"
+	}]
+}]

@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding-top: 50px;
+	background-color: #fff;
+	text-align: center;
+	font-family: "Didact Gothic",Arial,Verdana,sans-serif;
+}
+
+body > img {
+	width: 600px;
+}
+
+body > ul {
+	padding: 0;
+}
+
+body > ul > li {
+	display: inline-block;
+	padding: 20px;
+}
+
+body > ul > li > a {
+	color: #774F38;
+	text-decoration: none;
+}
+
+body > ul > li > a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+	body > img {
+		width: 80%;
+	}
+
+	body > ul > li {
+		display: block;
+	}
+}

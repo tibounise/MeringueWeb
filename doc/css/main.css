@@ -1,0 +1,16 @@
+body {
+	margin-bottom: 20px;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+li.uk-active > a {
+	background: #57B4B5 !important;
+}
+
+nav.uk-navbar {
+	margin-bottom: 25px;
+}
