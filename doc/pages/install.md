@@ -44,7 +44,7 @@ git clone https://github.com/tibounise/meringue.git
 ```json
 {
 	"require":{
-		"tibounise/meringue":"1.*"
+		"tibounise/meringue":"dev-master"
 	}
 }
 ```
